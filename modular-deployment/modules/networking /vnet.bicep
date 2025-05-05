@@ -1,4 +1,3 @@
-// modules/networking/vnet.bicep
 
 param location string = resourceGroup().location
 param vnetName string

@@ -1,5 +1,3 @@
-// modules/compute/vm.bicep
-
 param virtualMachineName string
 param location string 
 param vmSize string 
