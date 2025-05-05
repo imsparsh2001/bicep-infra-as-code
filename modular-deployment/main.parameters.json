@@ -9,7 +9,9 @@
       "value": "West Europe"
     },
     "storageSku": {
-      "value": {"name":"F1"}
+      "value": {
+        "name": "Standard_LRS"
+      }
     },
     "storagekind": {
       "value": "StorageV2"
@@ -22,9 +24,9 @@
     },
     "appServicePlanSku": {
       "value": {
-        "name":"S1",
-        "tier":"Standard",
-        "capacity":1
+        "name": "S1",
+        "tier": "Standard",
+        "capacity": 1
       }
     },
     "resourcelocation": {
