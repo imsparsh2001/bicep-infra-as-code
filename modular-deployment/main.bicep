@@ -26,7 +26,7 @@ module appServiceDeployment 'modules/compute/app.bicep' = {
   }
 }
 
-module virtualNetworkDeployment 'modules/networking /vnet.bicep' = {
+module virtualNetworkDeployment 'modules/networking/vnet.bicep' = {
   params: {
     location: resourcelocation
     vnetName: '${virtualMachineName}-vnet'
