@@ -1,0 +1,10 @@
+{
+    "moduleAliases": {
+      "br": {
+        "bicepRegistry": {
+          "registry": "bicepmoduleregistry0192.azurecr.io"
+        }
+      }
+    }
+  }
+  
